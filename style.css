@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+.fname,.lname{
+    display: inline-block;
+    text-align: left;
+}
+.mob,.mail{
+    display: inline-block;
+    text-align: left;
+}
+.start,.call_date{
+    display: inline-block;
+    text-align: left;
+}
+.call,.age{
+    display: inline-block;
+    text-align: left;
+}
+
+#study_details{
+    width: 20%;
+    height: 100px;
+}
+#btn{
+    background-color: rgb(94, 7, 163);
+    color: white;
+    width: 20%;
+}
+span{
+    font-size: 11px;
+    color: rgb(117, 117, 117);
+}

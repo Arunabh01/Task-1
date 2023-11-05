@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Get Started! Arrange a callback!</h2>
+            <form  id="register" method="post">
+
+                <section class="name">
+                <div class="fname">
+                <label for="fname">First Name </label>
+                <br>
+                <input type="text" name="fname"
+                id="name" placeholder="Nick" required>
+                <br>
+                <span id="1">Enter your first name here</span>
+                </div>
+                <div class="lname"><label for="lname">Last Name </label>
+                <br>
+                <input type="text" name="lname" id="name" placeholder="Agarwal" required>
+                <br>
+                <span id="2">Enter your last name here</span>
+                </div>
+                </section>
+                <br><br>
+
+                <section class="contact">
+                    <div class="mob">
+                        <label for="mob_num">Mobile Number </label>
+                        <br>
+                        <input type="tel" name="mob_num" id="num" maxlength="10" required>
+                        <br>
+                        <span id="3">Example: +91 212-695-1962</span>
+                    </div>
+                    <div class="mail">
+                        <label for="email">Email Address </label>
+                        <br>
+                        <input type="email" name="email" id="email" required>
+                        <br>
+                        <span id="4">Example: user@website.com</span>
+                    </div> 
+                </section>
+                <br><br>
+
+                <section class="dates">
+                    <div class="start">
+                        <label for="date">Preferred Start Date  </label>
+                        <br>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+                    <div class="call_date">
+                        <label for="date-for-call">Date for Call </label>
+                        <br>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+                </section>
+                <br><br>
+                
+                <section class="times">
+                    <div class="call">
+                        <label for="time">Preferred Time for Call * </label>
+                        <br>
+                        <input type="time" name="time" id="time" required>
+                    </div>
+                    <div class="age">
+                        <label for="age">Age </label>
+                        <br>
+                        <input type="number" name="age" id="age" min="0" max="100" >
+                    </div> 
+                </section>
+                 <br><br>
+
+                <div class="stud">
+                    <label for="study_details" class="study">Current Study Details </label>
+                    <br>
+                    <input type="text" name="study_details" id="study_details" required>
+                </div>
+                <br><br>
+                <button id="btn">Arrange a call Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
