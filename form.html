@@ -17,7 +17,7 @@
                 <label for="fname">First Name </label>
                 <br>
                 <input type="text" name="fname"
-                id="name" placeholder="Nick" required>
+                id="name" placeholder="Nick" required >
                 <br>
                 <span id="1">Enter your first name here</span>
                 </div>
@@ -34,14 +34,14 @@
                     <div class="mob">
                         <label for="mob_num">Mobile Number </label>
                         <br>
-                        <input type="tel" name="mob_num" id="num" maxlength="10" required>
+                        <input type="tel" name="mob_num" id="detail" maxlength="10" required>
                         <br>
                         <span id="3">Example: +91 212-695-1962</span>
                     </div>
                     <div class="mail">
                         <label for="email">Email Address </label>
                         <br>
-                        <input type="email" name="email" id="email" required>
+                        <input type="email" name="email" id="detail" required>
                         <br>
                         <span id="4">Example: user@website.com</span>
                     </div> 
@@ -64,14 +64,14 @@
                 
                 <section class="times">
                     <div class="call">
-                        <label for="time">Preferred Time for Call * </label>
+                        <label for="time">Preferred Time for Call </label>
                         <br>
-                        <input type="time" name="time" id="time" required>
+                        <input type="time" name="time" id="cal" required>
                     </div>
                     <div class="age">
                         <label for="age">Age </label>
                         <br>
-                        <input type="number" name="age" id="age" min="0" max="100" >
+                        <input type="number" name="age" id="cal" min="0" max="100" >
                     </div> 
                 </section>
                  <br><br>
@@ -79,7 +79,9 @@
                 <div class="stud">
                     <label for="study_details" class="study">Current Study Details </label>
                     <br>
-                    <input type="text" name="study_details" id="study_details" required>
+                    <textarea name="comm" class="comment" id="comm" cols="30" rows="10" aria-invalid="true" style="width: 1153px; height: 257px;">
+                    </textarea>
+                    <span class="error">This field is required.</span>
                 </div>
                 <br><br>
                 <button id="btn">Arrange a call Now</button>
