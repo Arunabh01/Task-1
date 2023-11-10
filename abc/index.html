@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="validate.js"></script>
+    <link rel="stylesheet" href="ex.css">
+    <script defer src="val.js"></script>
    
 </head>
 <body>
@@ -21,16 +21,14 @@
                 <input type="text" name="fname" id="fname" placeholder="Nick">
                 <br>
                 <span id="fnameError" class="error"></span>
-                <br>
-                <span id="1">Enter your first name here</span>
+               
                 </div>
                 <div class="lname"><label for="lname">Last Name <span class="required">*</span></label>
                 <br>
                 <input type="text" name="lname" id="lname" placeholder="Agarwal" >
                 <br>
                 <span id="lnameError" class="error"></span>
-                <br>
-                <span id="2">Enter your last name here</span>
+                
                 </div>
                 </section>
                 <br><br>
@@ -42,8 +40,7 @@
                         <input type="tel" name="mob_num" id="mobile" maxlength="10" >
                         <br>
                         <span id="mob_numError" class="error"></span>
-                        <br>
-                        <span id="3">Example: +91 212-695-1962</span>
+                        
                     </div>
                     <div class="mail">
                         <label for="email">Email Address <span class="required">*</span></label>
@@ -51,8 +48,7 @@
                         <input type="email" name="email" id="mail" >
                         <br>
                         <span id="emailError" class="error"></span>
-                        <br>
-                        <span id="4">Example: user@website.com</span>
+                        
                     </div> 
                 </section>
                 <br><br>
@@ -101,7 +97,7 @@
                     <span id="commentError"class="error"></span>
                 </div>
                 <br><br>
-                <button type="submit" id="btn" onclick="return validateForm()">Arrange a call Now</button>
+                <button type="submit" id="btn" >Arrange a call Now</button>
             </form>
            
         </div>
