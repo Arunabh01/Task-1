@@ -10,7 +10,7 @@ var dateForCall = document.getElementById('dateForCall');
 var time = document.getElementById('time');
 var age = document.getElementById('age');
 var comment = document.getElementById('comment');
-btn.addEventListener('submit', function (e) {
+btn.addEventListener('click', function (e) {
   e.preventDefault();
   validateInputs();
 });

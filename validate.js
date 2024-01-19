@@ -9,7 +9,7 @@ const time = document.getElementById('time');
 const age = document.getElementById('age');
 const comment = document.getElementById('comment');
 
-btn.addEventListener('submit', e =>{
+btn.addEventListener('click', e =>{
     e.preventDefault();
 
     validateInputs();
